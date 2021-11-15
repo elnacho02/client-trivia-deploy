@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>.contador{
+    position: absolute;
+    bottom: 17%;
+    display: flex;
+    gap: 2px;
+}
+
