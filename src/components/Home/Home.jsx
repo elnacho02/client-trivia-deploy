@@ -13,7 +13,7 @@ function Home({isLog}) {
                     <h4 className={s.resaltar}>{isLog.highScore} points</h4>
                 </div>
            )}
-           {!isLog && !isLog.username  && (
+           {(!isLog || !isLog.username)  && (
                <div className={s.saludo}>
                     <h4>Hi, stranger! Dont forget to login to compete in the ranking</h4>
                 </div>
