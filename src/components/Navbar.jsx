@@ -35,7 +35,7 @@ function Navbar({isLog, logVerif, setIsLog}) {
                 </div>
             </div>
             <div className={s.user}>
-                {(isLog === false || !isLog) && (
+                {(isLog === false || !isLog.length) && (
                     <NavLink to="/login" className={s.login}>
                         <i class="fas fa-sign-in-alt"></i>
                         Sign In
