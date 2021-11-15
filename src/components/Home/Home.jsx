@@ -28,11 +28,13 @@ function Home({isLog}) {
                     🔴 Functionalities:<br/>
                     🔸 Login and Register<br/>
                     🔸 Play with score functionality<br/>
-                    🔸 Be ranked by your highscore</p>
+                    🔸 Be ranked by your highscore</p><br/>
+                All the questions are brought from Open Trivia Database <br/>
+                <a href="https://opentdb.com/">https://opentdb.com/</a>
            </div>
            <div className={s.link}>
-               <a href=""><i class="fab fa-linkedin"></i></a>
-               <a href=""><i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/ignacio-aranda-977632225/"><i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/elnacho02"><i class="fab fa-github"></i></a>
            </div>
            
         </div>
