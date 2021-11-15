@@ -26,7 +26,7 @@ function App() {
   return (
    <div className="App"> 
         <Route path={"/"} > <Navbar isLog={isLog} logVerif={logVerif} setIsLog={setIsLog}/> </Route>
-        <Route exact path="/login"> <Login/> </Route>
+        <Route exact path="/login"><Login/></Route>
         <Route exact path="/user/create"> <Create /> </Route>
         <Route exact path={["/","/home"]} > <Home isLog={isLog} /> </Route>
         <Route exact path="/play"> <Play/> </Route>
