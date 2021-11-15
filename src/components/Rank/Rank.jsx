@@ -18,7 +18,7 @@ function Rank() {
                 <div className={s.second}>
                     <div className={s.position}>
                         
-                        <img src="https://cdn-icons.flaticon.com/png/512/3188/premium/3188675.png?token=exp=1637001835~hmac=35443e328eb858a9f672da8c3a93e942" alt="" width="50px"/>
+                        <img src={require("../../media/2.png").default} alt="" width="50px"/>
                     </div>
                     <div className={s.name}>
                         
@@ -30,7 +30,7 @@ function Rank() {
                 </div>
                 <div className={s.first}>
                     <div className={s.position}>
-                    <img src="https://cdn-icons.flaticon.com/png/512/1648/premium/1648486.png?token=exp=1637001714~hmac=9198ba89ca67bdb57f09c70848855cd5" alt="" width="32%"/>
+                    <img src={require("../../media/1.png").default} alt="" width="32%"/>
                     </div>
                     <div className={s.name}>
                         
@@ -43,7 +43,7 @@ function Rank() {
                 <div className={s.third}>
                     <div className={s.position}>
                         
-                    <img src="https://cdn-icons.flaticon.com/png/512/3188/premium/3188676.png?token=exp=1637001971~hmac=bf4b2b895abe47e6c6d84ff533b81cde" alt="" width="22%"/>
+                    <img src={require("../../media/3.png").default} alt="" width="22%"/>
                     </div>
                     <div className={s.name}>
                     
