@@ -6,32 +6,64 @@
     justify-content: center;
     align-items: center;
 }
-.container>form{
+.formContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer>.form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    width: 60%;
+    gap: 10px;
+    padding: 20px;
+    width: max-content;
     font-family: 'Nunito';
     font-size: 17px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-form>input{
-    width: 45%;
+.form>input{
+    width: 400px;
     height: 30px;
     font-family: 'Nunito';
     text-align: center;
+    border: 1px solid rgba(251,72,83,255);
+    border-radius: 5px;
 }
-form>button{
+.form>button{
     width: 100px;
     height: 30px;
     align-self: center;
     margin-top: 10px;
+    border: none;
+    background-color: rgba(251,72,83,255);
+    color: white;
+    font-family: 'Nunito';
+    font-weight: 700;
+    letter-spacing: 1px;
 }
-form>a{
+.form>h2{
+    margin: 0;
+    color: rgb(82, 82, 82);
+}
+.form>a{
     align-self: center;
 }
-
+.form>h5{
+    align-self: flex-start;
+    font-family: 'Nunito';
+    color: rgb(97, 97, 97);
+}
+.form>hr{
+    width: 80%;
+    background-color: rgba(251,72,83,255);
+    color: rgba(251,72,83,255);
+    border-color: rgba(251,72,83,255);
+}
 .side{
     height: 90vh;
     width: 40%;

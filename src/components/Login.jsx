@@ -54,14 +54,19 @@ function Login() {
         <div className={s.container}>
             <div className={s.side}>
                 
-                </div>
-            <form onSubmit={handleSubmit}>
-                <h2>LOG IN</h2>
-                <input type="text" name="username" value={info.username} placeholder='Username' onChange={(e)=>handleChange(e)} required autoComplete='off'/>
-                <input type="password" name='password' value={info.password} placeholder='Password' onChange={(e)=>handleChange(e)} required autoComplete='off'/>
-                <button type='submit'>LOG</button>
-                <a href="/user/create">create account</a>
-            </form>
+            </div>
+            <div className={s.formContainer}>
+                <form onSubmit={handleSubmit} className={s.form}>
+                    <h2>Login</h2>
+                    <hr/>
+                    <h5>Username</h5>
+                    <input type="text" name="username" value={info.username} placeholder='Username' onChange={(e)=>handleChange(e)} required autoComplete='off'/>
+                    <h5>Password</h5>
+                    <input type="password" name='password' value={info.password} placeholder='Password' onChange={(e)=>handleChange(e)} required autoComplete='off'/>
+                    <button type='submit'>Login</button>
+                    <a href="/user/create">create account</a>
+                </form>
+            </div>
             
         </div>
     )
