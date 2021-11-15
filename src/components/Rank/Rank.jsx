@@ -7,7 +7,7 @@ function Rank() {
     var [rank, setRank] = useState([]);
     
     useEffect(() => {
-        axios("https://trivia-app01.herokuapp.com/ranking").then(data => setRank(data.data.slice(0,9)))
+        axios("https://trivia-app01.herokuapp.com/ranking").then(data => setRank(data.data.slice(0,10)))
     }, [])
     
     if(rank.length)return (
