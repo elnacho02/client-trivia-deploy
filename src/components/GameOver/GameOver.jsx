@@ -6,6 +6,7 @@ function GameOver({points, getPreg}) {
             Game Over!
             Your score: {points}
             <button onClick={getPreg}>TRY AGAIN</button>
+            <h4>working on this page...</h4>
         </div>
     )
 }
